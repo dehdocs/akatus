@@ -1,0 +1,30 @@
+*{margin:0; padding:0; font-family:Verdana, Geneva, sans-serif;}
+
+.bandeiras li{
+	display:inline;
+}
+.bandeiras li img{
+	 -webkit-filter: grayscale(100%); 
+}
+.selected img{
+	 -webkit-filter: grayscale(0%) !important; 
+}
+fieldset{ padding:10px;}
+label {display:block; margin:10px 0  0  0;}
+input {height:15px; padding:5px; font-size:14px;}
+input.nomeCartao, input.numeroCartao{
+	width:300px;
+}
+input.codigoCartao{
+	width:30px;
+}
+#tabs{
+	width:633px;
+	margin:0 auto;
+}
+.pagarCartao{
+	width:425px;
+	margin:10px 0;
+	background:#FBA700;
+	color:#fff;
+}

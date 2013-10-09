@@ -1,0 +1,3 @@
+transacao_id
+status
+token
